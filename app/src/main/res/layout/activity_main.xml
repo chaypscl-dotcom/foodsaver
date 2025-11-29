@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="413dp"
+        android:layout_height="185dp"
+        android:background="@drawable/shape_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/icon_container"
+        android:layout_width="209dp"
+        android:layout_height="196dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="4dp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="114dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="188dp"
+            android:layout_height="162dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/add_a_heading__19_" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:text="Email*"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:text="Password*"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="491dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="328dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#44B14C"
+        android:text="Log In"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="581dp"
+        android:textStyle="bold"
+        android:textSize="8pt"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="442dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="800dp"
+        android:background="#44B14C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="182dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#CBCBCB"
+        android:text="Create Account"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="680dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="740dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Saver"
+        android:textSize="15pt"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="322dp"
+        android:textStyle="bold"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
