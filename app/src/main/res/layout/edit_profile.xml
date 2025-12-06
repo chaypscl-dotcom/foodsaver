@@ -60,6 +60,6 @@
         app:cardCornerRadius="100dp"
         app:cardElevation="4dp"
         tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="114dp">
+        tools:layout_editor_absoluteY="114dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
