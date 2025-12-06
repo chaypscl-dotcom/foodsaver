@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/view"
+        android:layout_width="413dp"
+        android:layout_height="185dp"
+        android:background="@drawable/shape_green"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/add_a_heading__15_"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOOD SAVER"
+        android:textColor="@color/white"
+        android:textSize="15pt"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="57dp"  />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, what are we saving today?"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="120dp"  />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inventory"
+        android:textColor="#44B14C"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/house_chimney__5_"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="791dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/inventory_alt__2__removebg_preview"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="791dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/circle_user__2_"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="791dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/bell_notification_social_media__2_"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="791dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="363dp"
+        android:layout_height="501dp"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="258dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#EEEEEE"/>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
