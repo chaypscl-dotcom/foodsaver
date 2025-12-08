@@ -9,8 +9,8 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="413dp"
-        android:layout_height="185dp"
+        android:layout_width="410dp"
+        android:layout_height="157dp"
         android:background="@drawable/shape_green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -19,49 +19,20 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/icon_container"
-        android:layout_width="209dp"
-        android:layout_height="196dp"
+        android:layout_width="167dp"
+        android:layout_height="154dp"
         app:cardCornerRadius="100dp"
         app:cardElevation="4dp"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="114dp">
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="106dp">
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="188dp"
-            android:layout_height="162dp"
+            android:layout_width="165dp"
+            android:layout_height="136dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/add_a_heading__19_" />
     </androidx.cardview.widget.CardView>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="76dp"
-        android:layout_height="26dp"
-        android:text="Email*"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="374dp" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="324dp"
-        android:layout_height="66dp"
-        android:background="@drawable/shape"
-        android:ems="10"
-        android:hint="Enter your email"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="400dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="76dp"
-        android:layout_height="26dp"
-        android:text="Password*"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="465dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -71,21 +42,37 @@
         android:ems="10"
         android:hint="Enter your password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="491dp"
-        />
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="438dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="328dp"
-        android:layout_height="64dp"
-        android:backgroundTint="#44B14C"
-        android:text="Log In"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="581dp"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:text="Password*"
         android:textStyle="bold"
-        android:textSize="8pt"/>
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:text="Email*"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="321dp" />
 
     <View
         android:id="@+id/view"
@@ -106,8 +93,20 @@
         android:text="Create Account"
         android:textColor="@color/black"
         android:textSize="8pt"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="680dp" />
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="328dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#44B14C"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="521dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -123,9 +122,9 @@
         android:layout_height="wrap_content"
         android:text="Food Saver"
         android:textSize="15pt"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="322dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="260dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#517754"
+    tools:context=".getstarted2">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="284dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#44B14C"
+        android:text="Get Started"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="346dp"
+        android:layout_height="377dp"
+        app:srcCompat="@drawable/screenshot_2025_11_26_at_12_38_03_pm_removebg_preview"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bggg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-100dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="95dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/active"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="288dp"
+        android:layout_height="92dp"
+        android:text="Get reminders before your food expires."
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="212dp"
+        android:layout_height="50dp"
+        android:text="Sends timely notifications to help prevent food spoilage."
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

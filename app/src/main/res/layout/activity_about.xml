@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555B6D"
+    tools:context=".about">
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="344dp"
+        android:layout_height="287dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="429dp"
+        android:layout_height="184dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/prof_curve_green"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/icon_container"
+        android:layout_width="155dp"
+        android:layout_height="154dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="4dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="285dp"
+        android:layout_height="186dp"
+        android:text="FoodSaver is designed to help users reduce food waste by keeping track of grocery expiry dates. The app provides smart reminders before items expire, allowing households to use their food on time and avoid unnecessary waste. With an organized inventory dashboard, users can easily monitor expiring, expired, and active items. FoodSaver promotes safer consumption, smarter grocery management, and more sustainable daily habits."
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="331dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

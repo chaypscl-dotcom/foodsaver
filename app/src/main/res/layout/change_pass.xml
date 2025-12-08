@@ -2,55 +2,136 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#555B6D"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/icon_container"
+        android:layout_width="155dp"
+        android:layout_height="154dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="4dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="95dp"
+        tools:ignore="MissingConstraints" />
+
     <View
         android:id="@+id/view5"
-        android:layout_width="413dp"
-        android:layout_height="185dp"
+        android:layout_width="437dp"
+        android:layout_height="202dp"
         android:layout_marginHorizontal="10dp"
-        android:background="@drawable/prof_curve_green"/>
+        android:background="@drawable/prof_curve_green"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-14dp" />
+    <View
+        android:id="@+id/view7"
+        android:layout_width="343dp"
+        android:layout_height="354dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="278dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton17"
-        android:layout_width="52dp"
-        android:layout_height="60dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/house_chimney__5_"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="791dp"  />
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm New Password:"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="480dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton18"
-        android:layout_width="52dp"
-        android:layout_height="60dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/inventory_alt__2__removebg_preview"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="791dp" />
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Password:"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="409dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton19"
-        android:layout_width="52dp"
-        android:layout_height="60dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/bell_notification_social_media__2_"
-        tools:layout_editor_absoluteX="248dp"
-        tools:layout_editor_absoluteY="791dp"  />
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="304dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton20"
-        android:layout_width="52dp"
-        android:layout_height="60dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/circle_user__2_"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="791dp" />
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Password:"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword4"
+        android:layout_width="288dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword5"
+        android:layout_width="285dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword6"
+        android:layout_width="283dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accounts"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        android:textStyle="bold"
+        android:backgroundTint="#52B65A"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:backgroundTint="#ADADAD"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="45dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

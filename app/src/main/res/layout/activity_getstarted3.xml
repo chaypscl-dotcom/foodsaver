@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getstarted3">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="437dp"
+        android:layout_height="549dp"
+        app:srcCompat="@drawable/boarder_removebg_preview"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-75dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="554dp"
+        android:layout_height="632dp"
+        app:srcCompat="@drawable/untitled_design_4_removebg_preview"
+        tools:layout_editor_absoluteX="-61dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="284dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#44B14C"
+        android:text="Get Started"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="217dp"
+        android:layout_height="58dp"
+        android:text="Provides a clear overview of soon-to-expire, expired, and active items."
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="265dp"
+        android:layout_height="87dp"
+        android:text="See what’s expiring soon and manage your groceries smarter."
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="528dp"
+        android:layout_height="611dp"
+        app:srcCompat="@drawable/untitled_design_4_removebg_preview_copy"
+        tools:layout_editor_absoluteX="-59dp"
+        tools:layout_editor_absoluteY="205dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodsaver">
         <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name=".getstarted3"
+            android:exported="false" />
+        <activity
+            android:name=".getstarted2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

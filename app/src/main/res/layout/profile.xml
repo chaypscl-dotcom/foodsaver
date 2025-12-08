@@ -63,7 +63,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="323dp" />
+        tools:layout_editor_absoluteY="300dp" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_accounts"
