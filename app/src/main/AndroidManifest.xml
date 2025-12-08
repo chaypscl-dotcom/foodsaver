@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodsaver">
         <activity
+            android:name=".getstat3"
+            android:exported="false" />
+        <activity
+            android:name=".getstat2"
+            android:exported="false" />
+        <activity
+            android:name=".getstat1"
+            android:exported="false" />
+        <activity
+            android:name=".changeepasss"
+            android:exported="false" />
+        <activity
+            android:name=".changeepass"
+            android:exported="false" />
+        <activity
+            android:name=".proffile"
+            android:exported="false" />
+        <activity
             android:name=".about"
             android:exported="false" />
         <activity
