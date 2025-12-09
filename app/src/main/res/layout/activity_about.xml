@@ -13,7 +13,7 @@
         android:layout_width="344dp"
         android:layout_height="287dp"
         android:background="@color/white"
-        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="272dp" />
 
     <View

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#555B6D">
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="413dp"
+        android:layout_height="185dp"
+        android:background="@drawable/prof_curve_green"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/icon_container"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="4dp"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="353dp"
+        android:layout_height="228dp"
+        android:background="@color/white"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Interface Language"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="308dp"
+        android:layout_height="40dp"
+        android:entries="@array/language_options"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="426dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="81dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#44B14C"
+        android:text="Save"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#CBCBCB"
+        android:text="Cancel"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

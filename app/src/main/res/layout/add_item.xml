@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555B6D">
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="413dp"
+        android:layout_height="185dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-2dp"
+        android:background="@drawable/shape_green"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="99dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/add_a_heading__15_"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="34dp"/>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOOD SAVER"
+        android:textColor="@color/white"
+        android:textSize="15pt"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, what are we saving today?"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="344dp"
+        android:layout_height="501dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="60dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/add_a_heading__19_"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new Item"
+        android:textColor="#44B14C"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name*"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="269dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="Eg. Milk"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Type*"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="269dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiry Date*"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="2025-12-25"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photo*"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#44B14C"
+        android:text="Add Item"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CBCBCB"
+        android:text="Cancel"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
