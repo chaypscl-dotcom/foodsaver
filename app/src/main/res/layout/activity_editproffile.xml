@@ -44,26 +44,6 @@
         tools:layout_editor_absoluteX="-9dp"
         tools:layout_editor_absoluteY="-2dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton13"
-        android:layout_width="52dp"
-        android:layout_height="60dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/house_chimney__5_"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="791dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton14"
-        android:layout_width="52dp"
-        android:layout_height="60dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/inventory_alt__2__removebg_preview"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="791dp" />
-
     <androidx.cardview.widget.CardView
         android:id="@+id/icon_container"
         android:layout_width="155dp"
